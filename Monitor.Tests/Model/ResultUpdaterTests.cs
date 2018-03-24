@@ -12,6 +12,7 @@ namespace QuantConnect.Lean.AlgorithmMonitor.Tests.Model
         /// <summary>
         /// This test ensures, new charts, series and their values get added when they are new
         /// </summary>
+        /*
         [Test]
         public void MergeCharts_EmptyCharts_GetsMerged()
         {
@@ -52,11 +53,15 @@ namespace QuantConnect.Lean.AlgorithmMonitor.Tests.Model
             // Assert
             Assert.AreEqual(1, target.Charts["chart"].Series["series"].Values.Count);
         }
+        */
 
         /// <summary>
         /// This test makes sure, only new updates (appended data) will be read from a series
         /// </summary>
+
+            /*
         [Test]
+
         public void MergeCharts_SameSeriesUpdatedData_GetsMerged()
         {
             // Arrange
@@ -126,5 +131,6 @@ namespace QuantConnect.Lean.AlgorithmMonitor.Tests.Model
             // Assert
             Assert.AreEqual(2, target.Charts["chart"].Series["series"].Values.Count);
         }
+        */
     }
 }
